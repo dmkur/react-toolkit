@@ -24,3 +24,6 @@ yarn-error.log*
 /.idea/misc.xml
 /.idea/workspace.xml
 /.idea/vcs.xml
+/.idea/react-toolkit.iml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/.gitignore
