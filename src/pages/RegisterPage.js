@@ -1,7 +1,9 @@
+import {RegisterForm} from "../components";
+
 const RegisterPage = () => {
     return (
         <div>
-            RegisterPage component
+            <RegisterForm/>
         </div>
     )
 };
