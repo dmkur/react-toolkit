@@ -1,0 +1,14 @@
+.header {
+
+    background-color: cornflowerblue;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn button:last-child {
+    margin-left: 20px;
+}
+

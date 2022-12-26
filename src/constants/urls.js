@@ -1,6 +1,8 @@
-const baseURL = 'http://owu.linkpc.net/api/v2';
+const baseURL = 'http://owu.linkpc.net/api/v3';
 
 const urls = {
+    auth:'/auth',
+    users:'/users',
     cars: '/cars'
 };
 
