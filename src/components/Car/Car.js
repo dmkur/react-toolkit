@@ -15,7 +15,10 @@ const Car = ({car}) => {
             {/*при настисканні, ми передамо наш об'єкт(car) в слайс в carForUpdate*/}
             {/*щоб дістати в Form компоненті*/}
             <button onClick={() => dispatch(carActions.setCarForUpdate(car))}>
-                Update car
+                Update
+            </button>
+            <button onClick={() => dispatch(carActions.deleteCarById({id}))}>
+                Delete
             </button>
             <hr/>
         </div>
