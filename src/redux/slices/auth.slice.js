@@ -10,7 +10,8 @@ const login = createAsyncThunk(
     'authSlice/login',
     async ({user}, {rejectWithValue}) => {
         try {
-            await authService.login(user)
+            const {data}=await authService.login(user)
+            return data
         } catch (e) {
             return rejectWithValue(e.response.data)
         }

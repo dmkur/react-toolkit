@@ -1,12 +1,14 @@
 import {useForm} from "react-hook-form";
 import {useDispatch} from "react-redux";
+import {authActions} from "../../redux";
 
 const RegisterForm = () => {
     const {register, handleSubmit} = useForm()
     const dispatch = useDispatch();
 
     const submit = (data) => {
-        // console.log(data)
+        const a = dispatch(authActions.register({user: data}))
+        console.log(a)
 
     };
 
