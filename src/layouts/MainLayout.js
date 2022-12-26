@@ -1,4 +1,4 @@
-const MailnLAyout = () => {
+const MainLayout = () => {
     return (
         <div>
             MailnLAyout component
@@ -6,4 +6,4 @@ const MailnLAyout = () => {
     )
 };
 
-export {MailnLAyout}
+export {MainLayout}
