@@ -6,9 +6,9 @@ const RegisterForm = () => {
     const {register, handleSubmit} = useForm()
     const dispatch = useDispatch();
 
-    const submit = (data) => {
-        const a = dispatch(authActions.register({user: data}))
-        console.log(a)
+    const submit = async (data) => {
+       await dispatch(authActions.register({user: data}))
+        // console.log(a)
 
     };
 
